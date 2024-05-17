@@ -1,0 +1,652 @@
+body {
+    background: #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 168px 0 0;
+    width: 1440px;
+    margin: 0 auto !important;
+    display: flex;
+}
+
+.container_header {
+    max-width: 1440px;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.profession_salary {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    justify-content: space-between;
+}
+
+.header_box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 36px 0 0;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.link {
+    color: #19191C;
+    text-decoration: none;
+}
+
+.btn_box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+
+.header_link {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header_btn {
+    background-color: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.info_block {
+    display: flex;
+
+}
+
+.info {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    background: url(../images/Ellipse_20.png) 1px 50px no-repeat;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.info_left_holder {
+    width: 45%;
+
+}
+
+.info_left_text1 {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 700;
+}
+
+.info_left_text2 {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.info_left_title {
+    color: #19191C;
+    font-size: 58px;
+    line-height: 70.19px;
+    font-weight: 700;
+}
+
+.info_right {
+    width: 100%;
+    position: relative;
+    margin: 0 0;
+}
+
+.info_right::before {
+    content: "";
+    display: inline-block;
+    width: 831px;
+    height: 751px;
+    background-image: url(../images/businesswoman.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 160px;
+    top: 82px
+}
+
+.info_right_holder {
+    background: url(../images/Rectangle\ 107.png) right bottom no-repeat;
+    display: flex;
+    width: 55%;
+    height: 833px;
+}
+
+.button {
+    background-color: #504DEE;
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    padding: 12px 37px 12px 37px;
+    gap: 10px;
+    border-color: #504DEE;
+}
+
+.info_right_tools {
+    padding: 16px 36px;
+    border: 2px solid #19191C;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    align-items: center;
+}
+
+.info_right_invision {
+    position: absolute;
+    width: 71px;
+    height: 22px;
+    top: 66px;
+    right: 55px;
+}
+
+.info_right_protopie {
+    position: absolute;
+    top: 0;
+    right: 275px;
+    width: 75px;
+    height: 22px;
+    left: 433px;
+
+}
+
+.info_right_miro {
+    position: absolute;
+    top: 74px;
+    right: 535px;
+    width: 40px;
+    height: 22px;
+    left: 204px;
+}
+
+.info_right_photoshop {
+    position: absolute;
+    top: 256px;
+    right: 515px;
+    left: 168px;
+    width: 96px;
+    height: 22px;
+}
+
+.info_right_figma {
+    position: absolute;
+    top: 393px;
+    right: 700px;
+    width: 54px;
+    height: 22px;
+
+}
+
+.info_right_illustator {
+    position: absolute;
+    top: 570px;
+    right: 630px;
+    left: 36px;
+    width: 86px;
+    height: 22px;
+}
+
+.percentage {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70.19px;
+    width: 110px;
+}
+
+.time {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+
+}
+
+footer {
+    background-color: #19191C;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.contact_info_logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21.78px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #EFEFF2;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.contact_info_mail {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    display: flex;
+    align-items: center;
+    color: #EFEFF2;
+    text-decoration: none;
+}
+
+.contact_info_number {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    display: flex;
+    align-items: center;
+    color: #EFEFF2;
+    text-decoration: none;
+}
+
+.sitemap_title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    display: flex;
+    align-items: center;
+    color: #EFEFF2;
+    text-decoration: none;
+    margin-bottom: 28px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sitemap_list {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+
+.sitemap_list li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sitemap_list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.profession_title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    width: 588px;
+    top: 168px;
+    left: 240px;
+}
+
+.profession_description {
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 588px;
+    height: 84px;
+    top: 336px;
+    left: 240px;
+}
+
+.profession_numbers_zahlen {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    margin-bottom: 5px;
+}
+
+.profession_numbers_description {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.profession_numbers_description2 {
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.profession_numbers_item {
+    display: flex;
+    gap: 103px;
+}
+
+.profession_divider {
+    width: 254px;
+    border: 4px;
+    color: #19191C;
+}
+
+.separator { 
+    width: 254px;
+    height:4px;
+    background: #000;
+}
+
+.colour_cards {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profession_text {
+    margin-right: 141px;
+}
+
+.colour_cards {
+    display: flex;
+    gap: 20px;
+}
+
+.colour_cards_item {
+    padding: 68px 48px;
+}
+
+.green {
+    background: #DEEFE4;
+}
+
+.yellow {
+    background: #F3F3D7;
+}
+
+.red {
+    background: #EFDEEE;
+}
+
+.exposition_title {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.colour_cards_item .separator {
+    width: 371px;
+}
+
+.profession {
+    padding-bottom: 168px;
+}
+
+.profession_numbers {
+    padding-top: 0;
+}
+
+.discover_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    margin: 171px auto 168px;
+}
+
+.prices_title {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.proposal {
+    display: flex;
+    gap: 20px;
+}
+
+.prices_base {
+    width: 100%;
+    max-width: 467px;
+    padding: 48px 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prices_optimal {
+    width: 100%;
+    max-width: 467px;
+    padding: 48px 68px;
+}
+
+.prices_premium {
+    width: 100%;
+    max-width: 467px;
+    padding: 48px 68px;
+}
+
+.blue {
+    background: #504DEE;
+}
+
+.prices_optimal_title {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.prices_base_title {
+    color: black;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.prices_premium_title {
+    color: black;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.prices_optimal p {
+    color: white;
+}
+
+.prices_optimal h4 {
+    color: white;
+}
+
+.prices_optimal h2 {
+    color: white;
+}
+
+.padding_b {
+    padding-bottom: 116px;
+}
+
+.price_little {
+    font-size: 24px;
+    color: #6D6D77;
+    font-weight: 700;
+}
+
+.price_big {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.button_base {
+    width: 163px;
+    height: 58px;
+    font-size: 24px;
+    border: none;
+    color: white;
+    background: #000;
+    font-weight: 700;
+}
+
+.button_premium {
+    background: white;
+    color: #504DEE;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body {
+        box-sizing: border-box;
+    }
+
+    .btn_box {
+        display: none;
+    }
+
+    .info_block {
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .info_left_holder {
+        width: 100%;
+    }
+
+    .info {
+        padding: 30px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .info_right_holder {
+        padding: 30px 0;
+        height: 500px;
+        box-sizing: border-box;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .info_right {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .info_right_tools {
+        position: initial;
+        width: 80%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .info_right_illustator .info_right_invision .info_right_protopie .info_right_miro .info_right_photoshop .info_right_figma {
+        position: initial;
+    }
+    .info_right::before {
+        content: none;
+    }
+    .sitemap {
+        display: none;
+    }
+    .profession_title {
+        font-size: 30px;
+    }
+    .profession_numbers_zahlen {
+        font-size: 30px;
+    }
+    .proposal img {
+        max-width: 100px;
+    }
+    .prices_base p {
+        text-align: center;
+    }
+    .prices_base h3 {
+        text-align: center;
+    }
+    .prices_optimal p {
+        text-align: center;
+    }
+    .prices_premium p {
+        text-align: center;
+    }
+    .prices_premium h3 {
+        text-align: center;
+    }
+    .colour_cards {
+        flex-direction: column;
+    }
+    .profession {
+        display: flex;
+        flex-direction: column;
+    }
+    .container_header {
+        box-sizing: border-box;
+    }
+    .proposal {
+        flex-direction: column;
+    }
+}
